@@ -24,7 +24,7 @@ const VideoRoom = () => {
       }
   
       if (mediaType === 'audio') {
-        // user.audioTrack.play()
+        user.audioTrack.play()
       }
     };
 
@@ -54,6 +54,7 @@ const VideoRoom = () => {
             setToggleMicCamera(true)
         }
     }
+
 
     const toggleMic =async(e)=>{
         if(localTracks[0].muted){
