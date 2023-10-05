@@ -5,7 +5,7 @@ import { AgoraVideoPlayer } from 'agora-rtc-react';
 import { VideoPlayer } from './VideoPlayer';
 
 const APP_ID = "db9b4ae7ea08420b983e6a324286af30"; //ENTER APP ID HERE
-const TOKEN  = '007eJxTYDB8asfo8SH8RLrlQy+5+bcnXJL5Mjv82TZPm4+RarylMYsVGFKSLJNMElPNUxMNLEyMDJIsLYxTzRKNjUyMLMwS04wNlh+STW0IZGT4/JuJhZEBAkF8FobcxMw8BgYAVjofsQ==';
+const TOKEN  = '007eJxTYDCaney/lOdy4dX+yX7hu9xSsi9U3iw/dld6mb7p0r6vKjcUGFKSLJNMElPNUxMNLEyMDJIsLYxTzRKNjUyMLMwS04wNmtXkUxsCGRkEq2+xMDJAIIjPwpCbmJnHwAAAbTYfSA==';
 const CHANNEL = "main"
 const client = AgoraRTC.createClient({mode:"rtc",codec:"vp8"})
 
