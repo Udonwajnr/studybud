@@ -27,7 +27,6 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-        <Route path="/video" element={<VideoRoom/>} />
           <Route path="/">
             <Route
               index
@@ -37,9 +36,17 @@ function App() {
                 </ProtectedRoute>
               }
             />
+             <Route
+              path="/chatroom"
+              element={
+                <ProtectedRoute>
+                  <Video/>
+                </ProtectedRoute>
+              }
+            />
             <Route path="login" element={<Login />} />
-            <Route path="register" element={<Register />} />
             <Route path="chatroom" element={<Video />} />
+            <Route path="register" element={<Register />} />
           </Route>
         </Routes>
       </BrowserRouter>
